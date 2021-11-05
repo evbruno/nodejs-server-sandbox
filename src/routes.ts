@@ -54,4 +54,17 @@ routes.get('/db2', async (req: Request, res: Response, next: NextFunction) => {
     .catch(next)
 })
 
+routes.get('/ps', (req, res) => {
+  res.json(
+    {
+      'arch': process.arch,
+      'platform': process.platform,
+      'execPath' : process.execPath,
+      'version': process.version,
+      'versions': process.versions,
+      'release': process.release
+    }
+  )
+})
+
 export default routes
