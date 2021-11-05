@@ -6,6 +6,8 @@
 docker run --rm -p 8000:8000 educhaos/nodejs-server-sandbox
 ```
 
+![just-do-it](https://github.com/evbruno/nodejs-server-sandbox/blob/just-do/it.png)
+
 ### local stuff
 
 ```
